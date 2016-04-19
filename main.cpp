@@ -1,4 +1,5 @@
 #include "HW06_1.h"
+#include "HW06_2.h"
 #include <iostream>
 #include <string>
 
@@ -22,7 +23,12 @@ int main()
 	cout << "string list: " << r << ". Double list: " << s << ". Int List: " << t << "." << endl;
 
 	//EX05_02
-
+	int list4[5] = { 7, 1, 5, 2, 4 }; //made this long one to test a long array
+	
+	bool a = isSorted(list4, 5); 
+	bool b = isSorted(list1, 2); //refer to EX05_01 for the arrays
+	bool c = isSorted(list2, 2);
+	cout << "int list sorted? " << a << " string list sorted? " << b << " double list sorted? " << c << endl;
 
 	return 0;
 }
