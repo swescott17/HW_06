@@ -1,8 +1,11 @@
 #include "HW06_1.h"
 #include "HW06_2.h"
+#include "HW06_04.h"
+#include <vector>
 #include <iostream>
 #include <string>
-
+#include <stdlib.h>
+#include <time.h>
 using namespace std;
 
 
@@ -29,6 +32,19 @@ int main()
 	bool b = isSorted(list1, 2); //refer to EX05_01 for the arrays
 	bool c = isSorted(list2, 2);
 	cout << "int list sorted? " << a << " string list sorted? " << b << " double list sorted? " << c << endl;
+
+	vector<int> intVector;
+	for (int i = 0; i < 10; i++)
+	{
+		intVector.push_back(i);
+	}
+
+	shuffle(intVector);
+	
+	for (int l = 0; l < 10; l++)
+	{
+		cout << "element " << l << " is " << intVector[l] << endl;
+	}
 
 	return 0;
 }
