@@ -142,9 +142,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="HW06_03.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="HW06_03.h" />
     <ClInclude Include="HW06_1.h" />
     <ClInclude Include="HW06_2.h" />
   </ItemGroup>

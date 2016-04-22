@@ -18,12 +18,18 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="HW06_03.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HW06_1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="HW06_2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HW06_03.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
